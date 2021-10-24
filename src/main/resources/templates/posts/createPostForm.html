@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<form action="/posts/new" method="post">
+    <div class="form-group">
+        <label for="title">제목</label>
+        <input type="text" id="title" name="title" placeholder="제목을 입력하세요">
+
+        <label for="writer">작성자</label>
+        <input type="text" id="writer" name="writer" placeholder="작성자명을 입력하세요">
+
+        <label for="password">비밀번호</label>
+        <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요">
+
+        <label for="contents">본문</label>
+        <input type="text" id="contents" name="contents" placeholder="글 본문을 작성하세요">
+
+        <button type="submit">글 등록하기</button>
+    </div>
+</form>
+
+</body>
+</html>
